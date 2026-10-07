@@ -1,0 +1,218 @@
+[
+  {
+    "name": "entrypoint.sh",
+    "mode": "0o777",
+    "uid": 0,
+    "gid": 0,
+    "link": "usr/local/bin/docker-entrypoint.sh",
+    "type": "b'2'"
+  },
+  {
+    "name": "etc/alternatives/my.cnf",
+    "mode": "0o777",
+    "uid": 0,
+    "gid": 0,
+    "link": "/etc/mysql/mysql.cnf",
+    "type": "b'2'"
+  },
+  {
+    "name": "etc/mysql/my.cnf",
+    "mode": "0o777",
+    "uid": 0,
+    "gid": 0,
+    "link": "/etc/alternatives/my.cnf",
+    "type": "b'2'"
+  },
+  {
+    "name": "run/mysqld",
+    "mode": "0o1777",
+    "uid": 999,
+    "gid": 999,
+    "link": "",
+    "type": "b'5'"
+  },
+  {
+    "name": "usr/bin/mysql",
+    "mode": "0o755",
+    "uid": 0,
+    "gid": 0,
+    "link": "",
+    "type": "b'0'"
+  },
+  {
+    "name": "usr/bin/mysql_config_editor",
+    "mode": "0o755",
+    "uid": 0,
+    "gid": 0,
+    "link": "",
+    "type": "b'0'"
+  },
+  {
+    "name": "usr/bin/mysql_embedded",
+    "mode": "0o755",
+    "uid": 0,
+    "gid": 0,
+    "link": "",
+    "type": "b'0'"
+  },
+  {
+    "name": "usr/bin/mysql_install_db",
+    "mode": "0o755",
+    "uid": 0,
+    "gid": 0,
+    "link": "",
+    "type": "b'0'"
+  },
+  {
+    "name": "usr/bin/mysql_plugin",
+    "mode": "0o755",
+    "uid": 0,
+    "gid": 0,
+    "link": "",
+    "type": "b'0'"
+  },
+  {
+    "name": "usr/bin/mysql_secure_installation",
+    "mode": "0o755",
+    "uid": 0,
+    "gid": 0,
+    "link": "",
+    "type": "b'0'"
+  },
+  {
+    "name": "usr/bin/mysql_ssl_rsa_setup",
+    "mode": "0o755",
+    "uid": 0,
+    "gid": 0,
+    "link": "",
+    "type": "b'0'"
+  },
+  {
+    "name": "usr/bin/mysql_tzinfo_to_sql",
+    "mode": "0o755",
+    "uid": 0,
+    "gid": 0,
+    "link": "",
+    "type": "b'0'"
+  },
+  {
+    "name": "usr/bin/mysql_upgrade",
+    "mode": "0o755",
+    "uid": 0,
+    "gid": 0,
+    "link": "",
+    "type": "b'0'"
+  },
+  {
+    "name": "usr/bin/mysqladmin",
+    "mode": "0o755",
+    "uid": 0,
+    "gid": 0,
+    "link": "",
+    "type": "b'0'"
+  },
+  {
+    "name": "usr/bin/mysqlbinlog",
+    "mode": "0o755",
+    "uid": 0,
+    "gid": 0,
+    "link": "",
+    "type": "b'0'"
+  },
+  {
+    "name": "usr/bin/mysqlcheck",
+    "mode": "0o755",
+    "uid": 0,
+    "gid": 0,
+    "link": "",
+    "type": "b'0'"
+  },
+  {
+    "name": "usr/bin/mysqld_multi",
+    "mode": "0o755",
+    "uid": 0,
+    "gid": 0,
+    "link": "",
+    "type": "b'0'"
+  },
+  {
+    "name": "usr/bin/mysqld_safe",
+    "mode": "0o755",
+    "uid": 0,
+    "gid": 0,
+    "link": "",
+    "type": "b'0'"
+  },
+  {
+    "name": "usr/bin/mysqldump",
+    "mode": "0o755",
+    "uid": 0,
+    "gid": 0,
+    "link": "",
+    "type": "b'0'"
+  },
+  {
+    "name": "usr/bin/mysqldumpslow",
+    "mode": "0o755",
+    "uid": 0,
+    "gid": 0,
+    "link": "",
+    "type": "b'0'"
+  },
+  {
+    "name": "usr/bin/mysqlimport",
+    "mode": "0o755",
+    "uid": 0,
+    "gid": 0,
+    "link": "",
+    "type": "b'0'"
+  },
+  {
+    "name": "usr/bin/mysqlpump",
+    "mode": "0o755",
+    "uid": 0,
+    "gid": 0,
+    "link": "",
+    "type": "b'0'"
+  },
+  {
+    "name": "usr/bin/mysqlshow",
+    "mode": "0o755",
+    "uid": 0,
+    "gid": 0,
+    "link": "",
+    "type": "b'0'"
+  },
+  {
+    "name": "usr/bin/mysqlslap",
+    "mode": "0o755",
+    "uid": 0,
+    "gid": 0,
+    "link": "",
+    "type": "b'0'"
+  },
+  {
+    "name": "usr/local/bin/gosu",
+    "mode": "0o755",
+    "uid": 0,
+    "gid": 0,
+    "link": "",
+    "type": "b'0'"
+  },
+  {
+    "name": "var/lib/mysql",
+    "mode": "0o1777",
+    "uid": 999,
+    "gid": 999,
+    "link": "",
+    "type": "b'5'"
+  },
+  {
+    "name": "var/lib/mysql-files",
+    "mode": "0o770",
+    "uid": 999,
+    "gid": 999,
+    "link": "",
+    "type": "b'5'"
+  }
+]

@@ -1,0 +1,7 @@
+PASS: README distinct restore project configuration verified without starting containers or rebuilding MySQL.
+Default project plus restore override retains volume: mysql5732-arm64_mysql-data
+Documented distinct project: mysql5732-restore-review; volume: mysql5732-restore-review_mysql-data (absent at check)
+Binding: 127.0.0.1:3308 -> 3306/tcp (host port available at check)
+Command: mysqld --event-scheduler=DISABLED; platform: linux/arm64
+Only /var/lib/mysql is mounted, using the project-scoped Docker volume.
+No containers started; no builds; no volumes or data created or deleted; credentials omitted.

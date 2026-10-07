@@ -1,0 +1,8 @@
+4	PASS	ARM64 Docker host, image and ELF binaries; exact mysqld/mysql/mysqldump 5.7.32; command passthrough
+16	PASS	fresh initialization, file-based credentials, root/application TCP authentication, init hooks, timezone tables and config includes
+1	PASS	representative SQL data, UTF-8, temporal semantics, views/routines/triggers, unique/FK constraints and strict-mode failures
+4	PASS	graceful shutdown and volume persistence; restart skips init scripts and does not change users/passwords
+7	PASS	application-database-only mysqldump/restore round trip with views/triggers/routines/events; local users preserved; events DISABLED at runtime
+8	PASS	explicit empty-password initialization, skip timezone import and unmodified effective default settings
+8	PASS	MYSQL_RANDOM_ROOT_PASSWORD generates a working protected root account
+1	PASS	conflicting MYSQL_ROOT_PASSWORD and MYSQL_ROOT_PASSWORD_FILE rejected

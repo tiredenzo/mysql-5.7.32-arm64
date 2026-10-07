@@ -1,0 +1,1 @@
+PASS: resolved Compose restore configuration, localhost binding, application-user SQL import, local users preserved, system-table writes denied, events DISABLED and graceful shutdown (25 seconds).

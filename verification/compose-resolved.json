@@ -1,0 +1,26 @@
+{
+  "image": "mysql:5.7.32-arm64-local",
+  "platform": "linux/arm64",
+  "command": [
+    "mysqld",
+    "--event-scheduler=DISABLED"
+  ],
+  "ports": [
+    {
+      "mode": "ingress",
+      "host_ip": "127.0.0.1",
+      "target": 3306,
+      "published": "60048",
+      "protocol": "tcp"
+    }
+  ],
+  "volumes": [
+    {
+      "type": "volume",
+      "source": "mysql-data",
+      "target": "/var/lib/mysql",
+      "volume": {}
+    }
+  ],
+  "stop_grace_period": "1m0s"
+}

@@ -1,0 +1,15 @@
+Targeted build.sh selection verification: PASS
+Actual build.sh executed from a temporary project copy. Builder/context/daemon and image inspections used real Docker reads; both build calls and create/cp/rm operations were intercepted before Docker execution. Remote endpoint and AMD64 daemon responses were simulated. Existing docker-container rejection used the real sad_neumann builder. No real build, container, volume or database operation was performed.
+Script SHA256: 5199b53265d2683082e125d5d6078a7a843c4126417cf70998e184f2ce55a5ba
+normal-local: PASS (exit 0)
+explicit-local: PASS (exit 0)
+selected-builder-context-pinning: PASS (exit 0)
+actual-docker-container: PASS (exit 1)
+host-override: PASS (exit 1)
+nonlocal-endpoint: PASS (exit 1)
+non-arm64-daemon: PASS (exit 1)
+missing-builder: PASS (exit 1)
+Both build stages and all image operations use desktop-linux explicitly; build stages also pin --builder desktop-linux and linux/arm64.
+Global builder and context unchanged: Name:          desktop-linux; desktop-linux
+Existing native image identity unchanged: sha256:c392a0fc59087a41d0f9d56a11f190e549ddd485aded29be06053106e31d59f9
+Actual source script SHA256 unchanged before/after targeted verification: 5199b53265d2683082e125d5d6078a7a843c4126417cf70998e184f2ce55a5ba

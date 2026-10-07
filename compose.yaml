@@ -1,0 +1,22 @@
+name: mysql5732-arm64
+services:
+  mysql:
+    image: mysql:5.7.32-arm64-local
+    platform: linux/arm64
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:?Set MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-application}
+      MYSQL_USER: ${MYSQL_USER:-explorer}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:?Set MYSQL_PASSWORD for the application-only user}
+    ports:
+      - "127.0.0.1:${MYSQL_PORT:-3307}:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+    stop_grace_period: 60s
+    healthcheck:
+      test: ["CMD-SHELL", 'MYSQL_PWD="$$MYSQL_ROOT_PASSWORD" mysql --protocol=TCP -h127.0.0.1 -uroot -Nse "SELECT 1" >/dev/null']
+      interval: 5s
+      timeout: 5s
+      retries: 60
+volumes:
+  mysql-data:

@@ -1,0 +1,17 @@
+/etc/mysql/conf.d/docker.cnf: OK
+/etc/mysql/conf.d/mysql.cnf: OK
+/etc/mysql/conf.d/mysqldump.cnf: OK
+/etc/mysql/my.cnf.fallback: OK
+/etc/mysql/mysql.cnf: OK
+/etc/mysql/mysql.conf.d/mysqld.cnf: OK
+/var/lib/mysql 1777 mysql:mysql
+/var/run/mysqld 1777 mysql:mysql
+/var/lib/mysql-files 770 mysql:mysql
+uid=999(mysql) gid=999(mysql) groups=999(mysql)
+libmysqlclient20:arm64	5.7.32-1debian10+arm64.1
+mysql-client	5.7.32-1debian10+arm64.1
+mysql-common	5.7.32-1debian10+arm64.1
+mysql-community-client	5.7.32-1debian10+arm64.1
+mysql-community-server	5.7.32-1debian10+arm64.1
+mysql-server	5.7.32-1debian10+arm64.1
+OpenSSL 1.1.1d  10 Sep 2019

@@ -1,0 +1,10 @@
+Successful native MySQL compilation/install: 704.1 seconds (six jobs).
+Packaging: 81.4 seconds.
+Builder export/load: 146.6 seconds.
+Final runtime assembly: approximately 52 seconds, from start marker to final build-log timestamp.
+Dependency preparation and runtime base were cached. These are separate stage measurements, not a fresh complete-build benchmark.
+Full build logs remain generated local artifacts and are omitted from Git.
+Stage completion lines from artifacts/build-compile.log:
+#13 DONE 704.1s
+#15 DONE 81.4s
+#16 DONE 146.6s

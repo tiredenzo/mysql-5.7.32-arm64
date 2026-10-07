@@ -1,0 +1,16 @@
+[GNUPG:] NEWSIG
+gpg: Signature made Thu Apr 16 08:40:38 2020 CEST
+gpg:                using RSA key B42F6819007F00F88E364FD4036A9C25BF357DD4
+[GNUPG:] KEY_CONSIDERED B42F6819007F00F88E364FD4036A9C25BF357DD4 0
+[GNUPG:] SIG_ID +2dOSjbwcBTSSBbx0eIzJK9qn2M 2020-04-16 1587019238
+[GNUPG:] GOODSIG 036A9C25BF357DD4 Tianon Gravi <tianon@tianon.xyz>
+gpg: Good signature from "Tianon Gravi <tianon@tianon.xyz>" [unknown]
+gpg:                 aka "Andrew Page (Tianon Gravi) <admwiggin@gmail.com>" [unknown]
+gpg:                 aka "Tianon Gravi (Andrew Page) <tianon@infosiftr.com>" [unknown]
+gpg:                 aka "Tianon Gravi <tianon@debian.org>" [unknown]
+gpg:                 aka "Tianon Gravi <tianon@dockerproject.org>" [unknown]
+[GNUPG:] VALIDSIG B42F6819007F00F88E364FD4036A9C25BF357DD4 2020-04-16 1587019238 0 4 0 1 10 00 B42F6819007F00F88E364FD4036A9C25BF357DD4
+[GNUPG:] TRUST_UNDEFINED 0 pgp
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+      B42F6819007F00F88E364FD4036A9C25BF357DD4

@@ -1,0 +1,13 @@
+/install/usr/sbin/mysqld: ELF 64-bit LSB pie executable, ARM aarch64, version 1 (GNU/Linux), dynamically linked, interpreter /lib/ld-linux-aarch64.so.1, for GNU/Linux 3.7.0, BuildID[sha1]=61b936eb074b3a08508d7e1edb9d20c36b510cb4, with debug_info, not stripped
+  Machine:                           AArch64
+OpenSSL 1.1.1g  21 Apr 2020
+OpenSSL 1.1.1g  21 Apr 2020
+/install/usr/sbin/mysqld  Ver 5.7.32 for Linux on aarch64 (MySQL Community Server (GPL))
+/install/usr/bin/mysql: ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-aarch64.so.1, for GNU/Linux 3.7.0, BuildID[sha1]=92431a0fd8608872ed82115651227ba5d8f43eae, with debug_info, not stripped
+  Machine:                           AArch64
+OpenSSL 1.1.1g  21 Apr 2020
+/install/usr/bin/mysql  Ver 14.14 Distrib 5.7.32, for Linux (aarch64) using  EditLine wrapper
+/install/usr/bin/mysqldump: ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-aarch64.so.1, for GNU/Linux 3.7.0, BuildID[sha1]=129a46a7991a1840fbb19eae2e6ee28375b01033, with debug_info, not stripped
+  Machine:                           AArch64
+OpenSSL 1.1.1g  21 Apr 2020
+mysqldump  Ver 10.13 Distrib 5.7.32, for Linux (aarch64)

@@ -1,0 +1,75 @@
+[
+    {
+        "Id": "sha256:c392a0fc59087a41d0f9d56a11f190e549ddd485aded29be06053106e31d59f9",
+        "RepoTags": [
+            "mysql:5.7.32-arm64-local"
+        ],
+        "RepoDigests": [
+            "mysql@sha256:c392a0fc59087a41d0f9d56a11f190e549ddd485aded29be06053106e31d59f9"
+        ],
+        "Comment": "buildkit.dockerfile.v0",
+        "Created": "2026-10-07T01:34:55.865862463Z",
+        "Config": {
+            "ExposedPorts": {
+                "3306/tcp": {},
+                "33060/tcp": {}
+            },
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "GOSU_VERSION=1.12",
+                "MYSQL_MAJOR=5.7",
+                "MYSQL_VERSION=5.7.32-1debian10+arm64.1"
+            ],
+            "Entrypoint": [
+                "docker-entrypoint.sh"
+            ],
+            "Cmd": [
+                "mysqld"
+            ],
+            "Volumes": {
+                "/var/lib/mysql": {}
+            },
+            "Labels": {
+                "local.mysql.reference": "mysql@sha256:e08834258fcc0efd01df358222333919df53d4a0d9b2a54da05b204b822e3b7b",
+                "org.opencontainers.image.title": "Oracle MySQL 5.7.32 native ARM64",
+                "org.opencontainers.image.version": "5.7.32"
+            },
+            "ArgsEscaped": true
+        },
+        "Architecture": "arm64",
+        "Os": "linux",
+        "Size": 1848768957,
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:5c4f3d84264daaff85b2f005a4c295693e48c0e9c3ae76e64a7f3914e94e583b",
+                "sha256:81b0bfdfb95ecbaa0d471f0feb7af676e435bf4a0475cc56af5289d7c781ae48",
+                "sha256:645ca81f24dceac56ab5f4989e968822e25aac0c0d12fd7cdf31af2b000a59ec",
+                "sha256:c8151f61d60022e1cb7a9517d894ab631d56e5906a0fdc0b22534ca46173e8c0",
+                "sha256:7e5e5b6bb484b5e969ab773b62726e2b59866e201b39724e975d3e01de1df3c7",
+                "sha256:4ceeb3eeeae4dc46a6dc5a3c4c4d584e6a8cb11a77308a6da2246a50f3233a92",
+                "sha256:135a9c2fc4a5c6affb09e9ba21a19421bdb5be26f2d9ef4eb9a526214bb9de3f",
+                "sha256:a3cd61efcb16ca99d7dd7c9ab431a6964ef1861ae4353d38a34df21cbb7ce1d2",
+                "sha256:5376a6ea8de66a02809cd0f6553358d18574a8312bebf5a2994891ef50d9c012",
+                "sha256:f8b40a97c583f1046cbe54c5405faf2931e01b295855e390739fa76288fea260",
+                "sha256:159fd5481c5e14f5739a9f78f5a1cdbb14fca540aac3b20cee5177f80792f200"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2026-10-07T01:35:20.114260335Z"
+        },
+        "Descriptor": {
+            "mediaType": "application/vnd.oci.image.index.v1+json",
+            "digest": "sha256:c392a0fc59087a41d0f9d56a11f190e549ddd485aded29be06053106e31d59f9",
+            "size": 856
+        },
+        "Identity": {
+            "Build": [
+                {
+                    "Ref": "3d4nvnl62nn4srebtebci19mu",
+                    "CreatedAt": "2026-10-07T01:35:27.28863263Z"
+                }
+            ]
+        }
+    }
+]

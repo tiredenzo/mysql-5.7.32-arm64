@@ -1,0 +1,233 @@
+{
+  "sha256": "796b393d6b1d63c7f3877e48dd15c765ad8738b9dcffe08bc1ac07fab8d92671",
+  "e_machine": 62,
+  "dynamic_dependencies": [
+    "libpthread.so.0",
+    "libdl.so.2",
+    "libstdc++.so.6",
+    "libm.so.6",
+    "libgcc_s.so.1",
+    "libc.so.6"
+  ],
+  "dynamic_flags": {},
+  "openssl_symbols": [
+    {
+      "table": ".dynsym",
+      "name": "EVP_des_ecb",
+      "binding": 1,
+      "visibility": 0,
+      "defined": true
+    },
+    {
+      "table": ".dynsym",
+      "name": "EVP_PKEY_add1_attr_by_OBJ",
+      "binding": 1,
+      "visibility": 0,
+      "defined": true
+    },
+    {
+      "table": ".dynsym",
+      "name": "SSL_set_default_passwd_cb_userdata",
+      "binding": 1,
+      "visibility": 0,
+      "defined": true
+    },
+    {
+      "table": ".dynsym",
+      "name": "EVP_DecodeFinal",
+      "binding": 1,
+      "visibility": 0,
+      "defined": true
+    },
+    {
+      "table": ".dynsym",
+      "name": "SSL_version_str",
+      "binding": 1,
+      "visibility": 0,
+      "defined": true
+    },
+    {
+      "table": ".dynsym",
+      "name": "SSL_srp_server_param_with_username",
+      "binding": 1,
+      "visibility": 0,
+      "defined": true
+    },
+    {
+      "table": ".dynsym",
+      "name": "EVP_aes_128_cfb1",
+      "binding": 1,
+      "visibility": 0,
+      "defined": true
+    },
+    {
+      "table": ".dynsym",
+      "name": "EVP_PKEY_new",
+      "binding": 1,
+      "visibility": 0,
+      "defined": true
+    },
+    {
+      "table": ".dynsym",
+      "name": "SSL_SESSION_set1_alpn_selected",
+      "binding": 1,
+      "visibility": 0,
+      "defined": true
+    },
+    {
+      "table": ".dynsym",
+      "name": "EVP_aes_128_cfb8",
+      "binding": 1,
+      "visibility": 0,
+      "defined": true
+    },
+    {
+      "table": ".dynsym",
+      "name": "EVP_des_ede",
+      "binding": 1,
+      "visibility": 0,
+      "defined": true
+    },
+    {
+      "table": ".dynsym",
+      "name": "SSL_set_num_tickets",
+      "binding": 1,
+      "visibility": 0,
+      "defined": true
+    },
+    {
+      "table": ".dynsym",
+      "name": "EVP_CIPHER_meth_set_iv_length",
+      "binding": 1,
+      "visibility": 0,
+      "defined": true
+    },
+    {
+      "table": ".dynsym",
+      "name": "EVP_aria_128_ofb",
+      "binding": 1,
+      "visibility": 0,
+      "defined": true
+    },
+    {
+      "table": ".dynsym",
+      "name": "EVP_CIPHER_CTX_set_flags",
+      "binding": 1,
+      "visibility": 0,
+      "defined": true
+    },
+    {
+      "table": ".dynsym",
+      "name": "SSL_set_session_ticket_ext_cb",
+      "binding": 1,
+      "visibility": 0,
+      "defined": true
+    },
+    {
+      "table": ".dynsym",
+      "name": "SSL_CTX_get0_ctlog_store",
+      "binding": 1,
+      "visibility": 0,
+      "defined": true
+    },
+    {
+      "table": ".dynsym",
+      "name": "EVP_EncryptUpdate",
+      "binding": 1,
+      "visibility": 0,
+      "defined": true
+    },
+    {
+      "table": ".dynsym",
+      "name": "EVP_PKEY_verify_recover_init",
+      "binding": 1,
+      "visibility": 0,
+      "defined": true
+    },
+    {
+      "table": ".dynsym",
+      "name": "SSL_CTX_set_quiet_shutdown",
+      "binding": 1,
+      "visibility": 0,
+      "defined": true
+    },
+    {
+      "table": ".dynsym",
+      "name": "EVP_DigestInit_ex",
+      "binding": 1,
+      "visibility": 0,
+      "defined": true
+    },
+    {
+      "table": ".dynsym",
+      "name": "EVP_sm3",
+      "binding": 1,
+      "visibility": 0,
+      "defined": true
+    },
+    {
+      "table": ".dynsym",
+      "name": "SSL_CTX_set_client_CA_list",
+      "binding": 1,
+      "visibility": 0,
+      "defined": true
+    },
+    {
+      "table": ".dynsym",
+      "name": "EVP_PKEY_CTX_get_cb",
+      "binding": 1,
+      "visibility": 0,
+      "defined": true
+    },
+    {
+      "table": ".dynsym",
+      "name": "SSL_read_early_data",
+      "binding": 1,
+      "visibility": 0,
+      "defined": true
+    },
+    {
+      "table": ".dynsym",
+      "name": "EVP_aes_128_xts",
+      "binding": 1,
+      "visibility": 0,
+      "defined": true
+    },
+    {
+      "table": ".dynsym",
+      "name": "SSL_CTX_set_default_ctlog_list_file",
+      "binding": 1,
+      "visibility": 0,
+      "defined": true
+    },
+    {
+      "table": ".dynsym",
+      "name": "OPENSSL_DIR_read",
+      "binding": 1,
+      "visibility": 0,
+      "defined": true
+    },
+    {
+      "table": ".dynsym",
+      "name": "EVP_sha3_256",
+      "binding": 1,
+      "visibility": 0,
+      "defined": true
+    },
+    {
+      "table": ".dynsym",
+      "name": "OPENSSL_buf2hexstr",
+      "binding": 1,
+      "visibility": 0,
+      "defined": true
+    },
+    {
+      "table": ".dynsym",
+      "name": "OPENSSL_ia32cap_P",
+      "binding": 1,
+      "visibility": 0,
+      "defined": true
+    }
+  ],
+  "symbols_count": 1037
+}

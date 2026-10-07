@@ -1,0 +1,4 @@
+# Apply together with compose.yaml for an isolated exploration/restore instance.
+services:
+  mysql:
+    command: ["mysqld", "--event-scheduler=DISABLED"]

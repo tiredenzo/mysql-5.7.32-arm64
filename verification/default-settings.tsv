@@ -1,0 +1,27 @@
+character_set_server	latin1
+collation_server	latin1_swedish_ci
+default_storage_engine	InnoDB
+event_scheduler	OFF
+explicit_defaults_for_timestamp	OFF
+group_concat_max_len	1024
+innodb_buffer_pool_size	134217728
+innodb_doublewrite	ON
+innodb_file_format	Barracuda
+innodb_file_per_table	ON
+innodb_flush_log_at_trx_commit	1
+innodb_large_prefix	ON
+innodb_log_file_size	50331648
+innodb_log_files_in_group	2
+innodb_page_size	16384
+innodb_strict_mode	ON
+innodb_version	5.7.32
+lower_case_table_names	0
+max_allowed_packet	4194304
+max_connections	151
+sql_mode	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+system_time_zone	UTC
+time_zone	SYSTEM
+version	5.7.32
+version_comment	MySQL Community Server (GPL)
+version_compile_machine	aarch64
+version_compile_os	Linux

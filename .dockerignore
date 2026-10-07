@@ -1,0 +1,13 @@
+*
+!Dockerfile
+!build/
+!build/**
+!inputs/
+!inputs/*.tar.*
+!inputs/*.patch
+!inputs/SHA256SUMS
+!inputs/gosu-arm64
+!reference/
+!reference/etc-mysql/
+!reference/etc-mysql/**
+!reference/docker-entrypoint.sh

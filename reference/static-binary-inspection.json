@@ -1,0 +1,74 @@
+{
+  "mysqld": {
+    "sha256": "a0c3b51b70cf39585c25bd83607bce53df78eee109b4b83d205006a6ccf89a4b",
+    "e_machine": 62,
+    "dynamic_dependencies": [
+      "libpthread.so.0",
+      "libdl.so.2",
+      "libaio.so.1",
+      "libnuma.so.1",
+      "libcrypt.so.1",
+      "librt.so.1",
+      "libatomic.so.1",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "comment": null
+  },
+  "mysql": {
+    "sha256": "c7fef215e5a850ebafe065829e945adf5b92841869837444881f7078c2527451",
+    "e_machine": 62,
+    "dynamic_dependencies": [
+      "libpthread.so.0",
+      "librt.so.1",
+      "libatomic.so.1",
+      "libdl.so.2",
+      "libncurses.so.6",
+      "libtinfo.so.6",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "comment": null
+  },
+  "mysqldump": {
+    "sha256": "966b21557fd985828610da97c84c1845e71b81bc49ba95b175db7029dd93db7d",
+    "e_machine": 62,
+    "dynamic_dependencies": [
+      "libpthread.so.0",
+      "librt.so.1",
+      "libatomic.so.1",
+      "libdl.so.2",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "comment": null
+  },
+  "plugins": [
+    "adt_null.so",
+    "auth_socket.so",
+    "authentication_ldap_sasl_client.so",
+    "connection_control.so",
+    "debug",
+    "group_replication.so",
+    "innodb_engine.so",
+    "keyring_file.so",
+    "keyring_udf.so",
+    "libmemcached.so",
+    "libpluginmecab.so",
+    "locking_service.so",
+    "mypluglib.so",
+    "mysql_no_login.so",
+    "mysqlx.so",
+    "rewriter.so",
+    "semisync_master.so",
+    "semisync_slave.so",
+    "validate_password.so",
+    "version_token.so"
+  ]
+}

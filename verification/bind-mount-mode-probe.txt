@@ -1,0 +1,3 @@
+644 root:root /fixtures/sourced.sh
+mysql-test-x-true
+sourced
